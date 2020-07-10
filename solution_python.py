@@ -33,7 +33,7 @@ class EventSourcer():
 
     def bulk_redo(self, steps: int):
         end_index = self.currentIndex + steps
-        while self.currentIndex != end_index and self.currentIndex < len(self.histroy):
+        while self.currentIndex != end_index and self.currentIndex < len(self.histroy) - 1:
             self.redo()
 
     def update_index(self, steps: int):
