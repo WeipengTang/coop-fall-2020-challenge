@@ -38,20 +38,3 @@ class EventSourcer():
 
     def update_index(self, steps: int):
         self.currentIndex += steps
-
-
-# if __name__ == "__main__":
-    
-#     obj = EventSourcer()
-#     obj.add(5)
-#     obj.add(5)
-#     obj.add(5)
-#     obj.add(5)
-#     obj.subtract(5)
-#     obj.bulk_undo(5)
-#     obj.bulk_redo(5)
-
-
-#     print(obj.value)
-
-    
